@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background: url("teste.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: -40px;
+}
+
+.header{
+    width: 100%;
+    padding: 30px 5%;
+    z-index: 100;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #2e393d;
+}
+.bottom{
+    text-align:right;
+    margin-left: 950px;
+    font-family: "SUSE", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 30px;
+}
+
+.bottom a{
+    background-color:#616b48;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-size: 15px;
+}
+.container{
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    text-align: start;
+    margin: 2%;
+}
+
+.col-3{
+    width: 2%;
+}
+
+.card{
+    width: 1260px;
+    height: 350px;
+    border: 1px solid;
+    border-color: rgb(248, 234, 234);
+    margin-top: 0%;
+}
+
+.card img{
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    height: 350px;
+    padding: 25px;
+}
+
+.card-2{
+    width: 1260px;
+    height: 400px;
+    border: 1px solid;
+    border-color: rgb(248, 234, 234);
+    margin-top: 0%;
+}
+
+.card-2 img{
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    height: 400px;
+    padding: 25px;
+}
+
+
+.card h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    
+}
+
+hr{
+    width: 80%;
+}
